@@ -17,11 +17,11 @@ This is a countrywide car accident dataset that covers 49 states of the USA. The
 
 **Source:** Kaggle
 **Columns:** 
-ID : This is a unique identifier of the accident record.
-Source : Source of raw accident data.
-Severity : Shows the severity of the accident, a number between 1 and 4, where 1 indicates the least impact on traffic.
-Start_Time : Shows start time of the accident in local time zone.
-End_Time : Shows end time of the accident in local time zone. End time here refers to when the impact of accident on
+1. ID : This is a unique identifier of the accident record.
+2. Source : Source of raw accident data.
+3. Severity : Shows the severity of the accident, a number between 1 and 4, where 1 indicates the least impact on traffic.
+4. Start_Time : Shows start time of the accident in local time zone.
+5. End_Time : Shows end time of the accident in local time zone. End time here refers to when the impact of accident on
 Start_Lat : Shows latitude in GPS coordinate of the start point.
 Start_Lng : Shows longitude in GPS coordinate of the start point.
 End_Lat : Shows latitude in GPS coordinate of the end point.
