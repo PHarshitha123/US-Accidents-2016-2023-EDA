@@ -64,3 +64,40 @@ This is a countrywide car accident dataset that covers 49 states of the USA. The
 45. Nautical_Twilight : Shows the period of day (i.e. day or night) based on nautical twilight.
 46. Astronomical_Twilight : Shows the period of day (i.e. day or night) based on astronomical twilight.
 
+[Python File for Reference](usaccidentseda-2016-2023.ipynb)
+
+## Exploratory Data Analysis:
+
+**Problems/Questions Addressed with this EDA**
+
+1. How Many US cities are there in the dataset?
+2. New york being the most populated city why it did not show up in the top 10 cities by accidents ?
+3. Even Though the NewYork City is listed in the dataset why NewYork City has less Accidents being a most populated City?
+4. There are 50 States in US which of the state accidents data is not collected?
+5. What are the top 20 Cities by Accidents?
+6. What are the top 10 States by Accidents?
+7. What is the Distribution of cities by accidents?
+8. What is the percentage of accidents with different accident factors?
+9. Does the accidents are occuring in hottest temperature or coolest temperature?
+10. What time of the day are accidents most frequent in?
+11. Which days of the week have the most accidents?
+12. Which months have the most accidents?
+13. What is the Accidents Trend by Year?
+14. On what Weather Condition does the accidents occuring?
+
+## Inferences:
+
+* New York City being the high populated city did not show up in top 10 or 20 . It's possible that the data sources may not have adequately captured or reported accidents in New York City, potentially explaining why it ranks lower in accident frequency and doesn't appear at the top of the list.[External Source to justify above inference](Source:https://www.rosenbaumnylaw.com/new-york-car-accident-lawyer/statistics/)
+* It can be inferred that **"Hawaii"** is not included in the dataset, likely indicating that data for this state was not collected or reported.
+* The observed exponential decrease in accidents across the distributions warrants further investigation to understand the underlying causes.
+* 8% of the cities have more than 1000 accidents.
+* Factors such as 'Amenity', 'Bump', 'Give_Way', 'No_Exit', 'Railway', 'Roundabout', 'Traffic_Calming', and 'Turning_Loop' have a negligible effect on accidents, each accounting for less than 2% of the total accidents.
+* Factors like 'Station' and 'Stop' have a moderate impact, contributing to between 2% and 4% of the total accidents.
+* More significant factors include 'Junction' (7%), 'Crossing' (11%), and 'Traffic Signal' (15%).
+* Human error at junctions and crossings, such as misjudging oncoming traffic, failing to yield, and not adhering to signals, often contributes to accidents, exacerbated by poor visibility and inadequate signage. Traffic signal-related accidents are frequently caused by drivers running red lights, making sudden stops, or speeding to beat the light.
+* Accidents occurring between 15°C to 25°C are influenced by drivers' complacency in comfortable weather conditions, resulting in distractions and relaxed driving habits. Additionally, the higher traffic volume and variable road conditions within this range contribute to increased accident rates due to congestion and unpredictable road surfaces.
+* Accidents are more likely to occur between 7:00 AM and 10:00 AM, corresponding to the morning rush hour when people depart for work. Similarly, another peak period for accidents is between 3:00 PM and 7:00 PM, coinciding with the evening rush hour when commuters return home from work.
+* In 2016 year january month data is not collected.
+* In 2023 only three months data is collected (Jan,Feb,Mar).
+* The distribution of accidents by weather condition indicates that favorable weather conditions such as 'Fair', 'Mostly Cloudy', 'Clear', and 'Cloudy' are associated with the highest number of accidents. Conversely, adverse weather conditions like 'Light Rain', 'Fog', and 'Heavy Rain' also contribute significantly to accident rates, suggesting that both clear and inclement weather conditions can pose risks for road safety.
+  
