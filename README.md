@@ -15,7 +15,7 @@ This is a countrywide car accident dataset that covers 49 states of the USA. The
 ### Dataset:
 [Link for downloading dataset](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents)
 
-**Source:** Kaggle
+**Source:** Kaggle<br>
 **Columns:** 
 1. ID : This is a unique identifier of the accident record.
 2. Source : Source of raw accident data.
