@@ -64,6 +64,12 @@ This is a countrywide car accident dataset that covers 49 states of the USA. The
 45. Nautical_Twilight : Shows the period of day (i.e. day or night) based on nautical twilight.
 46. Astronomical_Twilight : Shows the period of day (i.e. day or night) based on astronomical twilight.
 
+## Libraries Used:
+1. Numpy
+2. Pandas
+3. Matplotlib
+4. Seaborn
+
 [Python File for Reference](usaccidentseda-2016-2023.ipynb)
 
 ## Exploratory Data Analysis:
